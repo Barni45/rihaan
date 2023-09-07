@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: white;
+}
+.header h1{
+  font-size: 40px
+}
+.header ul{
+  display: flex;
+  list-style: none;
+}
+.header  ul li{
+  padding: 8px 30px;
+}
+.header ul li a{
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+.login{
+  padding: 10px 40px;
+  background-color: green;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  color:white ;
+}
+.sign{
+  
+  padding: 10px 40px;
+  border: 2px solid #204E51;
+  font-size: 20px;
+  border-radius: 10px;
+  color: #204E51;
+
+}
+.hero{
+  background-image: url(ggop.jpg);
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+
+}
+.hero h1{
+  padding-top: 10%;
+  font-size: 86px;
+
+}
+.hero p{
+  margin: 10px 20px;
+  font-size: 18px;
+}
+.get{
+  padding: 15px 40px;
+  font-size: 22px;
+  border-radius: 22px;
+  border: none;
+  background-color: #204E51;
+  color: white;
+  margin-top: 40px;
+}
+.learn{
+  padding: 15px 40px;
+  font-size: 22px;
+  border-radius: 22px;
+  border: 3px solid #204E51;
+  color:#204E51;
+}
+.pass{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  padding: 20px 50px;
+}.left h1{
+  font-size: 70px;
+  color: #204E51;
+}
+.right img{
+width: 500px;
+height: 500px;
+border-radius: 22px;
+}
+.left button{
+  margin-top: 20px;
+  padding: 15px 50px;
+  background-color: #204E51;
+  font-size: 26px;
+  color: white;
+  border: none;
+  border-radius: 32px;
+}
+.right h1{
+  box-shadow: 0px 2px 4px gray;
+  bottom: -650px;
+  margin-right: 55px;
+  right: 58px;
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  color: #204e52;
+  background-color:white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 22px;
+}
+.service {
+  margin: 5% 10px;
+  text-align: center;
+}
+.service h1 {
+  font-size: 70px;
+  color: #204E51;
+}
+.service p{
+  font-weight: 300;
+  margin: 20px 30%;
+}
+.box-parent{
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  justify-content: center;
+  gap: 60px;
+}
+.box1{   
+  border-radius: 22px;
+  box-shadow: 0px 2px 3px grey;
+  padding: 70px 20px;
+  text-align:center;
+  background-color:white;
+}
+.box1 h2{
+  font-size: 22px;
+  color: #204E51;
+}
+.leep{
+  margin: 5% 10px;
+  text-align: center;
+}
+.leep h1 {
+  font-size: 60px;
+  color: #204E51;
+}
+.leep p{
+  font-size: 10px;
+  font-weight: 400;
+  margin: 20px 10%;
+}
+.run {
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  justify-content: center;
+  gap: 70px;
+}
+.boh img {
+  margin-left: 8px;
+  margin-right: 20px;
+  width: 180px;
+  height: 180px;
+border-radius: 22px;
+}
+.boh {
+  padding: 20px 30px;
+  border-radius: 20px;
+  height: 400px;
+  background-color:white;
+  border-radius: 22px ;
+  box-shadow: 0px 3px 3px 1px grey;
+}
+.boh h3 {
+  margin: 20px;
+  color: #204E51;
+  text-align: center;
+}
+.boh p {
+  margin: 30px;
+  line-break: 5pxs;
+
+}
+.run a {
+  color: #204E51;
+  margin-left: 500px;
+  font-size: 20px;
+  display: flex;
+  margin-top: -40px;
+}
+.reep {
+  background-image:url(yop.jpg) ;
+  background-size: cover;
+  height: 200px;
+  padding: 200px 20px;
+  margin-top: 70px;
+}
+.reep h1 {
+ margin: 60px;
+  font-size: 60px;
+  color: white;  
+}
+.lern {
+  margin-left: 50px;
+  padding: 5px 30px;
+  background-color:#204e52;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  color:white ;
+
+}
+.cont {
+  padding: 5px 30px;
+  border: 3px solid white;
+  font-size: 15px;
+  border-radius: 10px;
+  color: white;
+  background-color: #000;
+}
+.benefit {
+  margin: 10% 2px;
+  display: grid;
+  padding: 2px 40px;
+}
+.l-side h1 {
+color: #204E51;
+font-size: 50px;
+margin-top: 400px;
+}
+.l-side p{
+  margin-top:-50px;
+  margin-left: 40px;
+  font-weight: 300;
+}
+.l-side button{
+  margin: 20px;
+  margin-top: 20px;
+  background-color: #204E51;
+  color: white;
+  border: none;
+  font-size: 22px;
+  border-radius: 10px;
+  padding: 2px 30px;
+}
+.r-side {
+  background-color: #204e52;
+  padding: 30px 60px;
+  margin-left: 700px;
+  border-radius: 10px;
+  height: 700px;
+  display: grid;
+  width: 500px;
+ margin-top: -550px;
+}
+.r-side img {
+  margin-top: 60px;
+  margin-left:80px;
+}
+.icon {
+  margin-left: 300px;
+  margin-top: -120px;
+  padding: 20px;
+  color: white;
+}
+.icon h2 {
+  font-size: 16px;
+}
+.icon p{
+  font-size: 40px;
+}
+.test {
+    margin-bottom: 50px;
+     padding: 20px 50px;
+   text-align: center;
+}
+.test h3 {
+  padding: 22px;
+  margin-top: 40px;
+  font-size: 40px;
+  color: #204E51;
+}
+.made {
+  height: 300px;
+  background-color: #204E51;
+  padding: 70px;
+  width: 900px;
+  margin-left: 200px;
+  border-radius: 22px;
+}
+.made img {
+  margin-left: 30px;
+   border-radius: 22px;
+  width: 200px;
+  height: 200px;   
+}
+.star {
+  margin-left: 300px;
+  margin-top: -200px;
+  color: yellow;
+  font-size: 30px;
+}
+.line h1 {
+  padding: 5px;
+  margin-top: -3px;
+  font-size: 20px;
+  margin-left: 300px;
+}
+.line h4 { 
+  color: white;
+  margin-top: -50px;
+  font-size: 10px;
+  font-style: italic;
+  margin-left: 300px;
+}
+.line p {
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+  margin-left: 290px;
+}
+.our h2 {
+  font-size: 40px;
+  color: #204E51;
+  padding: 10px;
+ margin-left: 600px;
+ margin-top: 60px;
+}
+.our p {
+  font-size: 15px;
+  margin-left: 300px;
+}
+.bol {
+  margin: 40px;
+    margin-left: 200px;
+    display: flex;
+    grid-template-columns: 250px 250px;
+    gap: 20px;
+    padding: 10px;
+}
+.bog1 img {
+  border-radius: 22px ;
+  width: 200px;
+}
+.bog1 h2 {
+  color: #204e52;
+  font-size: 20px;
+  margin: 15px;
+}
+.bog1 p {
+  margin: 22px;
+  font-size: 10px;
+}
+.bog1 a {
+  color: #204e52;
+  margin: 22px;
+}
+
+.abuut {
+  width: 1300px;
+  background-color: #204e52;
+  margin: 50px;
+  padding: 70px 50px;
+  height: 400px;
+  margin-left: -90px;
+}
+.abuut h2 {
+  color: white;
+  font-size: 40px;
+  margin: 30px;
+}
+.abuut p {
+  font-size: 15px;
+  margin: 30px;
+}
+.qer img {
+  margin-top: 50px;
+  margin: 10px;
+  gap: 10px;
+  width: 40px;
+  margin-left: 20px;
+}
+.jok {
+  margin-left: 600px;
+  margin-top: -250px;
+}
+.jok p {
+  font-size: 15px;
+  color: white;
+}
+.tip {
+  margin-left: 900px;
+  margin-top: -250px;
+}
+.tip p {
+  color: white;
+  font-size: 14px;
+}
